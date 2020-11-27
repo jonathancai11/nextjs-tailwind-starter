@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 import Feature from "../components/feature";
 import CallToAction from "../components/cta";
+import Pricing from "../components/pricing";
 
 
 function IndexPage() {
@@ -9,6 +10,7 @@ function IndexPage() {
     <Layout>
       <Hero />
       <Feature />
+      <Pricing />
       <CallToAction />
     </Layout>
   );

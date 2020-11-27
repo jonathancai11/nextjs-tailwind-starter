@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-        <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
-            <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+        <div className="relative pt-6 pb-3 px-4 sm:px-32 md:px-52 lg:px-60">
+            <nav className="relative  max-w-screen-xl mx-auto flex items-center justify-between py-2 px-4" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                     <div className="flex items-center justify-between w-full md:w-auto">
                         
@@ -23,11 +23,11 @@ export default function Header() {
 
                     </div>
                 </div>
-                {/* <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-                    <a href="/" className="font-medium text-gray-500 hover:text-gray-900">About</a>
-                    <a href="/#features" className="font-medium text-gray-500 hover:text-gray-900">Features</a>
-                    <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500 float-right">Log in</a>
-                </div> */}
+                <div className="text-right hidden md:block md:ml-10 md:pr-4 md:space-x-8 inline">
+                    <a href="/about" className="float-right font-medium text-gray-500 hover:text-gray-900">About</a>
+                    {/* <a href="/#features" className="font-medium text-gray-500 hover:text-gray-900">Features</a>
+                    <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500 float-right">Log in</a> */}
+                </div>
             </nav>
 
 

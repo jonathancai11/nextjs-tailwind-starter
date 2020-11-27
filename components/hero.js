@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <div className="relative bg-white overflow-hidden">
+        <div className="relative bg-white overflow-hidden sm:mx-12 md:mx-32 lg:mx-56 xl:mx-72 mx-2">
             <div className="max-w-7xl mx-auto">
 
                 <div className="relative z-10 mx-auto pb-8 bg-white sm:pb-16 md:pb-12 lg:max-w-2xl lg:w-full lg:pb-20 xl:pb-28">
@@ -53,8 +53,8 @@ export default function Hero() {
 
             {/* Hero image */}
             {/* <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"> */}
-            <div className="shadow-xl">
-                <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://i.imgur.com/zLFzj7h.png" alt="" />
+            <div className="">
+                <img className="m-auto rounded-3xl h-96 w-full object-cover sm:h-96 md:h-96 lg:w-2/3 lg:h-full" src="https://i.imgur.com/rQY4A4s.png" alt="" />
             </div>
         </div>
     );

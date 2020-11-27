@@ -1,3 +1,5 @@
+import ReactCompareImage from 'react-compare-image';
+
 export default function Hero() {
     return (
         <div className="relative bg-white overflow-hidden sm:mx-12 md:mx-32 lg:mx-56 xl:mx-72 mx-2">
@@ -47,14 +49,18 @@ export default function Hero() {
                     </main>
 
                 </div>
-
-
             </div>
 
             {/* Hero image */}
             {/* <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"> */}
             <div className="">
-                <img className="m-auto rounded-3xl h-96 w-full object-cover sm:h-96 md:h-96 lg:w-3/4 lg:h-full" src="https://i.imgur.com/rQY4A4s.png" alt="" />
+                <ReactCompareImage
+                    className="m-auto rounded-3xl h-96 w-full object-cover sm:h-96 md:h-96 lg:w-3/4 lg:h-full"
+                    leftImage="https://i.imgur.com/QvVqUDE.png"
+                    rightImage="https://i.imgur.com/rQY4A4s.png"
+                    sliderLineColor="gray"
+                />
+                {/* <img className="m-auto rounded-3xl h-96 w-full object-cover sm:h-96 md:h-96 lg:w-3/4 lg:h-full" src="https://i.imgur.com/rQY4A4s.png" alt="" /> */}
             </div>
         </div>
     );

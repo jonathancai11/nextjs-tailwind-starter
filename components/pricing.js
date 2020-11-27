@@ -1,6 +1,6 @@
 export default function Pricing() {
     return (
-        <div className="h-full py-16 antialiased bg-primary-very-light font-sans">
+        <div className="h-full antialiased bg-primary-very-light font-sans sm:mx-12 md:mx-32 lg:mx-56 xl:mx-72 mx-2">
             <header className="flex flex-col items-center mb-12">
                 <h2 className="text-3xl text-primary-normal font-bold">Our Pricing</h2>
                 <div className="pt-8 w-3/5 lg:w-1/5 flex justify-around ">

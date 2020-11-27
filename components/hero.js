@@ -54,7 +54,7 @@ export default function Hero() {
             {/* Hero image */}
             {/* <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"> */}
             <div className="">
-                <img className="m-auto rounded-3xl h-96 w-full object-cover sm:h-96 md:h-96 lg:w-2/3 lg:h-full" src="https://i.imgur.com/rQY4A4s.png" alt="" />
+                <img className="m-auto rounded-3xl h-96 w-full object-cover sm:h-96 md:h-96 lg:w-3/4 lg:h-full" src="https://i.imgur.com/rQY4A4s.png" alt="" />
             </div>
         </div>
     );
